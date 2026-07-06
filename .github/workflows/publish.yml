@@ -30,3 +30,4 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/nido-comparator:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/nido-comparator:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/nido-comparator:comparador-precios-nido-v1
